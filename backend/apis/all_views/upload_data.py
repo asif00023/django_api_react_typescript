@@ -5,16 +5,7 @@ from dataprocessor import settings
 import traceback
 import os
 
-"""
-references:
-1. Using Django core JsonResponse class:
-        https://stackoverflow.com/questions/51511813/in-order-to-allow-non-dict-objects-to-be-serialized-set-the-safe-parameter-to-fa
-2. Print exception stack trace in Python
-        https://www.geeksforgeeks.org/how-to-print-exception-stack-trace-in-python/
-3. File uploads using Django : https://docs.djangoproject.com/en/5.0/topics/http/file-uploads/
-4. Working with forms in Django:
-        https://docs.djangoproject.com/en/5.0/topics/forms/        
-"""
+
 
 
 @csrf_exempt

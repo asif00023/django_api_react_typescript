@@ -5,17 +5,7 @@ from apis.BusinessLogic.ChartGenerationBL import ChartGenerationBL
 import traceback
 import os
 
-"""
-references:
-1. Using Django core JsonResponse class:
-        https://stackoverflow.com/questions/51511813/in-order-to-allow-non-dict-objects-to-be-serialized-set-the-safe-parameter-to-fa
-2. Print exception stack trace in Python
-        https://www.geeksforgeeks.org/how-to-print-exception-stack-trace-in-python/
-3. Check for file existence in Python
-        https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions
-4. Get base URL in Django
-        https://stackoverflow.com/questions/2345708/how-can-i-get-the-full-absolute-url-with-domain-in-django
-"""
+
 
 
 @csrf_exempt

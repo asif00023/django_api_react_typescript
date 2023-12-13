@@ -4,11 +4,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import plotly.express as px
 
-"""
-References:
-1. Private methods in python classes
-        https://www.geeksforgeeks.org/private-methods-in-python/
-"""
+
 
 
 class ChartGenerationBL:
